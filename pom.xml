@@ -7,13 +7,12 @@
     <artifactId>project-cases</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>project-cases</name>
-    <description>project-cases</description>
+    <packaging>pom</packaging>
     <!-- 该工程为SpringBoot工程 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.0.2</version>
-        <relativePath/>
     </parent>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -21,6 +20,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+    <modules>
+<!--        通用模块-->
+        <module>project-cases-common</module>
+<!--       基于websocket聊天demo -->
+        <module>websocket-chatting-demo</module>
+    </modules>
     <build>
         <plugins>
             <plugin>
