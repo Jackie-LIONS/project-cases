@@ -25,6 +25,7 @@
         <module>project-cases-common</module>
 <!--       基于websocket聊天demo -->
         <module>websocket-chatting-demo</module>
+        <module>comment-demo</module>
     </modules>
     <build>
         <plugins>
