@@ -5,8 +5,6 @@ import com.lion.comment.dto.CommentRequest;
 import com.lion.comment.service.CommentService;
 import com.lion.common.result.BaseResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
